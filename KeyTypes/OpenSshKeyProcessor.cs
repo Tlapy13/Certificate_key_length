@@ -37,7 +37,7 @@ namespace Certificate_key_length.KeyTypes
             string base64Clean = base64Data
 .Replace("\r", "")
 .Replace("\n", "");
-ta
+
             byte[] decodedBytes;
             try
             {
